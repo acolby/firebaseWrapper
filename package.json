@@ -4,7 +4,7 @@
   "description": "custom wrapper and ORM for acolby firebase projects",
   "main": "index.js",
   "scripts": {
-    "test": "nodeunit test"
+    "test": "nodeunit test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/acolby/firebaseWrapper/issues"
   },
-  "homepage": "https://github.com/acolby/firebaseWrapper"
+  "homepage": "https://github.com/acolby/firebaseWrapper",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "firebase": "^2.2.3",
+    "q": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.9.1"
+  }
 }

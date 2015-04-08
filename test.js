@@ -1,6 +1,7 @@
 var Firebase = require('Firebase');
-var rootRef = new Firebase('https://tttests.firebaseio.com/');
-var secret = 'cI2lwD7QVtvRLTn8gGuBGawbKHdN0NYTHQg3rgYv';
+var testDB = require('./auth.json');
+var rootRef = new Firebase(testDB.firebaseTestUrl);
+var secret = testDB.firebaseTestSecret;
 
 test = {};
 
@@ -20,5 +21,12 @@ test.setTestDb = {
 test.sessionManagement = require('./modules/usersAndSessionsManagement/test.js')(rootRef, secret);
 test.teamsManagement = require('./modules/teamsManagement/test.js')(rootRef, secret);
 test.subDomainsManagement = require('./modules/subDomainsManagement/test.js')(rootRef, secret);
+
+//run last test
+test.lastTest = function(test){
+    //do_clear_all_things_if_needed();
+    setTimeout(process.exit, 500); // exit in 500 milli-seconds    
+    test.done();
+} ;
 
 module.exports = test;
