@@ -1,0 +1,49 @@
+{
+    "0": {
+        "message": "EMAIL_TAKEN"
+    },
+    "1": {
+        "message": "INVALID_EMAIL"
+    },
+    "2": {
+        "message": "UNKNOWN_ERROR"
+    },
+    "3": {
+        "message": "USER_NOT_SAVED"
+    },
+    "4": {
+        "message": "CREATE_ACCOUNT_TOKEN_NOT_VALID"
+    },
+    "5": {
+        "message": "ACCOUNT_EXISTS_ALREADY"
+    },
+    "6": {
+        "message": "USER_DOES_NOT_EXIST"
+    },
+    "7": {
+        "message": "FAILED_TO_CHANGE_PASSWORD"
+    },
+    "8": {
+        "message": "VERY_VERY_BAD_TRANSACTION_ERROR"
+    },
+    "11": {
+        "message": "DATABASE_WRITE_ERROR"
+    },
+    "12": {
+        "message": "USER_IS_NOT_ACTIVATED"
+    },
+
+    "14": {
+        "message": "DATABASE_READ_ERROR"
+    },
+    "15": {
+        "message": "INVALID_PASSWORD"
+    },
+    "16": {
+        "message": "SESSION_DOES_NOT_EXISTS"
+    },
+    "17": {
+        "message": "TEAM_DOES_NOT_EXISTS"
+    }
+
+}

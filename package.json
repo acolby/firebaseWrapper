@@ -1,0 +1,19 @@
+{
+  "name": "firebaseWrapper",
+  "version": "0.0.0",
+  "description": "custom wrapper and ORM for acolby firebase projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acolby/firebaseWrapper.git"
+  },
+  "author": "acolby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acolby/firebaseWrapper/issues"
+  },
+  "homepage": "https://github.com/acolby/firebaseWrapper"
+}
